@@ -18,9 +18,9 @@ You can lauch this basic webpage with GitHub page to compute basic unit conversi
 
 All the information on how you can make a conversion is on the webpage.
 
-## Video Demo
+## Video Demo (HTML & CSS only)
+<video src="Unit Conversions - Google Chrome 2024-07-13 01-47-41.mp4" type="video/mp4"></video>
 
-[Link to the video demo of the project (HTML and CSS only)](Unit Conversions/Unit Conversions - Google Chrome 2024-07-13 01-47-41.mp4)
 
 ## Author
 
