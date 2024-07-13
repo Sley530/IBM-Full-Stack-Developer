@@ -21,7 +21,6 @@ All the information on how you can make a conversion is on the webpage.
 ## Picture (HTML & CSS only)
 
 <img src="Screenshot (59).png"/>
-<img src="Google Chrome 2024-07-13 01-47-41.mp4">
 
 ## Author
 
