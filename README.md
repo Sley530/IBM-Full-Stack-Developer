@@ -19,7 +19,7 @@ You can lauch this basic webpage with GitHub page to compute basic unit conversi
 All the information on how you can make a conversion is on the webpage.
 
 ## Video Demo (HTML & CSS only)
-<video src="Unit Conversions - Google Chrome 2024-07-13 01-47-41.mp4" type="video/mp4"></video>
+<video src="Unit Conversions - Google Chrome 2024-07-13 01-47-41.mp4" type="video/mp4">click</video>
 
 
 ## Author
