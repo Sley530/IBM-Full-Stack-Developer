@@ -3,21 +3,27 @@
   <head>
     <!-- This is your page title that appears on the browser window or tab -->
     <title>Unit Conversions</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
       <section id="home">
         <!--This is the main heading-->
         <header><b>Unit Conversions</b></header>
         <nav>
-        <!-- This will have the main unit conversion buttons -->
-            <a href="#temperature"><button>Temperature</button></a>
-            <a href="#weight"><button>Weight</button></a>
-            <a href="#distance"><button>Distance</button></a>
+            <div class="topdiv">
+            <!-- This will have the main unit conversion buttons -->
+                <a href="#temperature"><button class="menu-button">Temperature</button></a>
+                <a href="#weight"><button class="menu-button">Weight</button></a>
+                <a href="#distance"><button class="menu-button">Distance</button></a>
+            </div>
         </nav>
+
+        <div style="clear:both;"></div>
+
         <div id="all-conversion-sections">
         <!-- This will have the conversion sections for Temperature, Weight, and Distance -->
-        
-        <section id="temperature">
+
+        <section id="temperature" class="b temperature">
             <div id="tmp">
                 <figure>
                 <!-- Figure and its caption will come here -->
@@ -36,7 +42,7 @@
                         <button id="temperature">Convert</button><br>
 
                         <input type="number" id="f"><br>
-                        <label for="Temperature">Fahrenheit</label>   
+                        <label for="Temperature">Fahrenheit</label>
                     </fieldset>
                 </article>
                 <aside>
@@ -45,7 +51,9 @@
             </div>
         </section>
 
-        <section id="weight">
+        <div style="clear:both;"></div>
+
+        <section id="weight" class="b weight">
             <div id="wgt">
                 <figure>
                 <!-- Figure and its caption will come here -->
@@ -64,7 +72,7 @@
                         <button id="weight">Convert</button><br>
 
                         <input type="number" id="lbs"><br>
-                        <label for="weight">Pounds</label>   
+                        <label for="weight">Pounds</label>
                     </fieldset>
                 </article>
                 <aside>
@@ -73,7 +81,9 @@
             </div>
         </section>
 
-        <section id="distance">
+        <div style="clear:both;"></div>
+
+        <section id="distance" class="b distance">
             <div id="dst">
                 <figure>
                 <!-- Figure and its caption will come here -->
@@ -92,17 +102,19 @@
                         <button id="distance">Convert</button><br>
 
                         <input type="number" id="m"><br>
-                        <label for="Distance">Mile</label> 
+                        <label for="Distance">Mile</label>
                     </fieldset>
                 </article>
                 <aside>
                     To convert Kilometer to Mile yourself, use this formula replacing the `km` with your distance in Kilometer: km &divide 1.609
-                </aside>  
+                </aside>
             </div>
         </section>
         </div>
 
-        <div id="go-home">
+        <div style="clear:both;"></div>
+
+        <div id="go-home" class="iconbutton">
             <a href="#home">
                 <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
             </a>
