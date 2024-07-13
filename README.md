@@ -6,7 +6,7 @@ Description of your project goes here.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Video Demo](#video-demo)
+- [Picture](#picture)
 - [Author](#author)
 
 

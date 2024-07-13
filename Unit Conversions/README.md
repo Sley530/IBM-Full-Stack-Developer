@@ -6,8 +6,7 @@ Description of your project goes here.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Video Demo](#video-demo)
-- [Contributing](#contributing)
+- [Picture (HTML & CSS only)](#video-demo)
 - [Author](#author)
 
 
@@ -19,12 +18,13 @@ You can lauch this basic webpage with GitHub page to compute basic unit conversi
 
 All the information on how you can make a conversion is on the webpage.
 
-## Video Demo
+## Picture (HTML & CSS only)
 
-[Link to the video demo of your project](insert_video_link_here)
+<img src="Screenshot (59).png"/>
 
 ## Contributing
 
 Guidelines on how others can contribute to your project.
 
 ## Author
+Paul-Wesley Jeanty
