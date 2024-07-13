@@ -7,7 +7,6 @@ Description of your project goes here.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Video Demo](#video-demo)
-- [Contributing](#contributing)
 - [Author](#author)
 
 
@@ -23,8 +22,6 @@ All the information on how you can make a conversion is on the webpage.
 
 [Link to the video demo of the project (HTML and CSS only)](Unit Conversions/Unit Conversions - Google Chrome 2024-07-13 01-47-41.mp4)
 
-## Contributing
-
-Guidelines on how others can contribute to your project.
-
 ## Author
+
+- Paul-Wesley Jeanty
