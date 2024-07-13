@@ -1,22 +1,3 @@
-# Unit Conversions
+# Welcome to My Fullstack Development Bootcamp Project Repository
 
-Description of your project goes here.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Author](#author)
-
-
-## Installation
-
-You can lauch this basic webpage with GitHub page to compute basic unit conversions.
-
-## Usage
-
-All the information on how you can make a conversion is on the webpage.
-
-## Author
-
-- Paul-Wesley Jeanty
+This repository serves as a central hub for all the projects and assignments I will be tackling throughout my Fullstack Development Bootcamp journey with IBM. Here, you'll find a comprehensive collection of files, resources, and documentation related to my learning and development process.
