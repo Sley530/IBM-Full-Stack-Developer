@@ -4,6 +4,7 @@
     <!-- This is your page title that appears on the browser window or tab -->
     <title>Unit Conversions</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
       <section id="home">
@@ -28,7 +29,7 @@
                 <figure>
                 <!-- Figure and its caption will come here -->
                 <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" alt="This is an image" width="200px"/>
-                <figcaption>Celcius to Fahrenheit Conversion</figcaption>
+                <figcaption>Celsius to Fahrenheit Conversion</figcaption>
                 </figure>
 
                 <article>
@@ -36,17 +37,17 @@
                     <fieldset>
                         <legend>Temperature</legend>
                         <!-- The fields and button for temperature input will come here -->
-                        <label for="Temperature">Celcius</label><br>
-                        <input type="number" id="c"><br>
+                        <label for="Temperature">Celsius</label><br>
+                        <input type="number" id="celsius"><br>
 
-                        <button id="temperature">Convert</button><br>
+                        <button id="temperature" onclick="temperature()">Convert</button><br>
 
-                        <input type="number" id="f"><br>
+                        <input type="number" id="fahrenheit"><br>
                         <label for="Temperature">Fahrenheit</label>
                     </fieldset>
                 </article>
                 <aside>
-                    To convert Celsuis to Fahrenheit yourself, use this formula replacing the `C` with your temperature in Celsuis: (C × 9/5) + 32
+                    To convert Celsius to Fahrenheit yourself, use this formula replacing the `C` with your temperature in Celsuis: (C × 9/5) + 32
                 </aside>
             </div>
         </section>
@@ -67,9 +68,9 @@
                         <legend>Weight</legend>
                         <!-- The fields and button for weight input will come here -->
                         <label for="Weight">Kilograms</label><br>
-                        <input type="number" id="kg"><br>
+                        <input type="number" id="kgs"><br>
 
-                        <button id="weight">Convert</button><br>
+                        <button id="weight" onclick="weight()">Convert</button><br>
 
                         <input type="number" id="lbs"><br>
                         <label for="weight">Pounds</label>
@@ -99,9 +100,9 @@
                         <label for="Distance">Kilometer</label><br>
                         <input type="number" id="km"><br>
 
-                        <button id="distance">Convert</button><br>
+                        <button id="distance" onclick="distance()">Convert</button><br>
 
-                        <input type="number" id="m"><br>
+                        <input type="number" id="miles"><br>
                         <label for="Distance">Mile</label>
                     </fieldset>
                 </article>
